@@ -1,1 +1,0 @@
-{"version":3,"sources":["layout/bc.scss","layout/bc.css"],"names":[],"mappings":"AAAA,KACI,qBCCJ","file":"bc.css","sourcesContent":["body{\r\n    background-color: blue;\r\n}","body {\n  background-color: blue;\n}"]}

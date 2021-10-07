@@ -11,3 +11,21 @@ body {
     font-family: $fuentePrincipal;
     font-size: $fontSize;
 }
+
+h2{
+    font-weight: $extra;
+}
+
+h3{
+    font-size: $fontSize;
+    font-weight: $normal;
+}
+
+a{
+    text-decoration: none;
+    line-height: none;
+}
+
+label{
+font-weight: $grueso;
+}

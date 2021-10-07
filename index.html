@@ -3,41 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./build/css/app.css">
-    <!-- displays site properly based on user's device -->
 
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
-    <title>Frontend Mentor | Intro component with sign up form</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
   </head>
   <body>
     <header>
       <h2 class="header__titulo">Learn to code by watching others</h2>
       <h3 class="header__descripcion">
-        See how experienced developers solve problems in real-time. Watching
-        scripted tutorials is great, but understanding how developers think is
+        See how experienced developers solve <br> problems in real-time. Watching <br>
+        scripted tutorials is great, but <br> understanding how developers think is <br>
         invaluable.
       </h3>
     </header>
@@ -50,29 +40,26 @@
     </div>
 
     <div class="formulario__contenedor">
-      <form action="">
-        <div class="formulario__campo">
-          <label for="" class="formulario__campo--letra">First Name </label>
-          <input type="text" />
-        </div>
-        <div class="formulario__campo">
-          <label for="" class="formulario__campo--letra">Last Name </label>
-          <input type="text" />
-        </div>
-        <div class="formulario__campo">
-          <label for="" class="formulario__campo--letra">Email Address</label>
-          <input type="text" />
-        </div>
-        <div class="formulario__campo">
-          <label for="" class="formulario__campo--letra">Password</label>
-          <input type="text" />
-        </div>
+      <form action="" class="formulario">
+
+          <input type="text" value="First Name" class="imput" />
+
+          <input type="text" value="Last Name" class="imput"/>
+
+          <input type="text" value="Email Address" class="imput" />
+
+          <input type="text" value="Password" class="imput" />
+
+          <button class="formulario__boton">Claim your free trial</button>
       </form>
-      <button class="formulario__boton">Claim your free trial</button>
+     
       <p class="formulario__advertencia">
-        By clicking the button, you are agreeing to our Terms and Services
+        By clicking the button, you are agreeing to our <a class="formulario__advertencia--enlace" href="">Terms and Services</a> 
       </p>
+
     </div>
+
+
     <footer>
       <p class="attribution">
         Challenge by
@@ -82,5 +69,6 @@
         <a href="https://github.com/Odrinko" target="_blank">Odrinko</a>.
       </p>
     </footer>
+    <!-- <script src="./build/js/bundle.js"></script> -->
   </body>
 </html>

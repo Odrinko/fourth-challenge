@@ -1,0 +1,17 @@
+.oferta__contenedor{
+    margin: 0 2rem;
+    background-color: $azul;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    .oferta__descripcion{
+        color: white;
+        font-weight: $delgado;
+        text-align: center;
+        margin: 0 4rem;
+    }
+
+    .descripcion--span{
+        font-weight: $extra;
+    }
+}

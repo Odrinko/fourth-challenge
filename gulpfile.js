@@ -20,8 +20,8 @@ const path = {
 }
 
 const pathReturn = {
-    cssReady: './build/css/app.css',
-    jsReady: './build/js/bundle.js'
+    cssReady: './build/css',
+    jsReady: './build/js'
 }
 
 function css() {
