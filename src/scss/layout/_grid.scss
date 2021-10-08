@@ -1,7 +1,7 @@
 .grid__ayuda{
     @include tablet{
         display: grid;
-        height: 95%;
+        height: 100vh;
         @include grid(2, 5rem)
     }
 }

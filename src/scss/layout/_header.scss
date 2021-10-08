@@ -20,7 +20,9 @@
 
 .header__descripcion{
     line-height: 3rem;
-    margin-left: 10rem;
+    @include tablet{
+        margin-left: 10rem;
+    }
     br{
     @include tablet{
         display: none;
