@@ -5,6 +5,9 @@
     border-radius: 1.5rem;
     padding: 2rem 4rem; 
     box-shadow: 1px 8px 10px 5px rgba(0,0,0,0.63);
+    @include tablet {
+        height: 100%;
+    }
 
     .formulario{
         display: flex;
@@ -18,7 +21,7 @@
         font-weight: $grueso;
         color: grey;
         border-radius: .5rem;
-        margin: 2rem 0;
+        margin: 1rem 0;
         border: .1px solid #E1E1E1;
         text-align: left;
         width: 90%;
@@ -38,7 +41,6 @@
     .formulario__advertencia{
         width: 85%;
         margin: 2rem auto;
-        padding-bottom: 2rem;
         text-align: center;
         font-size: 1.2rem;
 

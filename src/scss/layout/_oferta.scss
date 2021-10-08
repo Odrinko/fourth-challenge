@@ -5,7 +5,8 @@
     border-radius: 1rem;
     box-shadow: 1px 7px 12px 5px rgba(0,0,0,0.63);
     @include tablet{
-        width: 95%;
+        width: 90%;
+        margin-top: 2rem;
     }
 
     .oferta__descripcion{
