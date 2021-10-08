@@ -7,7 +7,7 @@
     <title>Frontend Mentor | Intro component with sign up form</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    
+
     <link
       rel="icon"
       type="image/png"
@@ -23,42 +23,50 @@
     <link rel="stylesheet" href="build/css/app.css" />
   </head>
   <body>
-    <header>
-      <h2 class="header__titulo">Learn to code by watching others</h2>
-      <h3 class="header__descripcion">
-        See how experienced developers solve <br> problems in real-time. Watching <br>
-        scripted tutorials is great, but <br> understanding how developers think is <br>
-        invaluable.
-      </h3>
-    </header>
+    <div class="grid__ayuda">
+      <header>
+        <div class="grid__texto">
+        <h2 class="header__titulo">Learn to code by watching others</h2>
+        <h3 class="header__descripcion">
+          See how experienced developers solve <br />
+          problems in real-time. Watching <br />
+          scripted tutorials is great, but <br />
+          understanding how developers think is <br />
+          invaluable.
+        </h3>
+      </div>
+      </header>
 
-    <div class="oferta__contenedor">
-      <h3 class="oferta__descripcion">
-        <span class="descripcion--span">Try it free 7 days</span> then $20/mo.
-        thereafter
-      </h3>
+      <div class="grid__ayuda-derecha">
+        <div class="oferta__contenedor">
+          <h3 class="oferta__descripcion">
+            <span class="descripcion--span">Try it free 7 days</span> then
+            $20/mo. thereafter
+          </h3>
+        </div>
+
+        <div class="formulario__contenedor">
+          <form action="" class="formulario">
+            <input type="text" placeholder="First Name" class="imput" />
+
+            <input type="text" placeholder="Last Name" class="imput" />
+
+            <input type="text" placeholder="Email Address" class="imput" />
+
+            <input type="text" placeholder="Password" class="imput" />
+
+            <button class="formulario__boton">Claim your free trial</button>
+          </form>
+
+          <p class="formulario__advertencia">
+            By clicking the button, you are agreeing to our
+            <a class="formulario__advertencia--enlace" href=""
+              >Terms and Services</a
+            >
+          </p>
+        </div>
+      </div>
     </div>
-
-    <div class="formulario__contenedor">
-      <form action="" class="formulario">
-
-          <input type="text" value="First Name" class="imput" />
-
-          <input type="text" value="Last Name" class="imput"/>
-
-          <input type="text" value="Email Address" class="imput" />
-
-          <input type="text" value="Password" class="imput" />
-
-          <button class="formulario__boton">Claim your free trial</button>
-      </form>
-     
-      <p class="formulario__advertencia">
-        By clicking the button, you are agreeing to our <a class="formulario__advertencia--enlace" href="">Terms and Services</a> 
-      </p>
-
-    </div>
-
 
     <footer>
       <p class="attribution">
