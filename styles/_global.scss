@@ -1,0 +1,26 @@
+//colors 
+$color-white: hsl(0, 0%, 100%);
+$color-light-pink: hsl(275, 100%, 97%);
+$color-grayish-purple: hsl(292, 16%, 49%);
+$color-dark-purple: #a229dd;;
+
+
+html{
+    font-family: 'Work Sans';
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+body{
+    background: url(./../assets/images/background-pattern-desktop.svg) top no-repeat;
+    background-color: $color-light-pink;
+}
+
+#app{
+    width: 99vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
